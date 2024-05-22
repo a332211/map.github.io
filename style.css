@@ -1,0 +1,9 @@
+#road {
+    position: fixed;
+    left: 25%;
+    font-family: "Lucida Console", Monaco, monospace; 
+    font-size: 20px; 
+    color: rgba(0, 8, 159, 0.8);
+}
+
+
