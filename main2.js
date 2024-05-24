@@ -107,6 +107,7 @@ canvas.addEventListener('click', (event) => {
             const threshold = 5;
             if (distance < threshold) {
                 if(road.way.tags.name!=undefined) printRoad(road.way.tags.name); // prints the road name if it's not undefined 
+                vectorDrawingSystem.drawPoint(roadCanvasX, roadCanvasY, 'circle', 'blue');
                 return; // exit loop if road is found
             }
         }
